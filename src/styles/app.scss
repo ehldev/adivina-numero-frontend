@@ -1,0 +1,11 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f4ef;
+}
+
+button:disabled {
+    background-color: rgba(#F8333C, .5) !important;
+    border: 1px solid rgba(#F8333C, .2) !important;
+    cursor: not-allowed !important;
+    pointer-events: auto !important;
+}
